@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a1f5e829-03cf-4808-b289-f8b77edb7979": {
+      "ProjectGuid": "a1f5e829-03cf-4808-b289-f8b77edb7979",
+      "DisplayName": "PM022PTarea2",
+      "ColorIndex": 0
+    },
+    "ec8c01db-1a21-40a1-b8f3-81ee44b2d1d5": {
+      "ProjectGuid": "ec8c01db-1a21-40a1-b8f3-81ee44b2d1d5",
+      "DisplayName": "PM022PTarea2.Android",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

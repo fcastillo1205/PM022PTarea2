@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local ="clr-namespace:Signature"
+             xmlns:forms ="clr-namespace:SignaturePad.Forms;assembly=SignaturePad.Forms"
+             x:Class="PM022PTarea2.Views.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <forms:SignaturePadCanvasView
+               x:Name="padFirma"
+               StrokeWidth="2"
+               WidthRequest="400"
+               HeightRequest="300"
+               Margin="2"
+                VerticalOptions="Start"
+                HorizontalOptions="Start"/>
+            <Entry x:Name="Nombre" Placeholder="Nombre" />
+            <Entry x:Name="Descripcion" Placeholder="Descripcion" />
+            <Button x:Name="Guardar" Text="Guardar" Clicked="guardar_Clicked" />
+            <Button x:Name="Limpiar" Text="Limpiar" Clicked="Limpiar_Clicked" />
+            <Button x:Name="Listar" Text="Listar" Clicked="Listar_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
